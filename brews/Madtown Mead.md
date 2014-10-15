@@ -9,6 +9,7 @@ Fermentables:
 
 * Kelly Family Filtered Honey (10.5 lb)
 * Chuck Lorence Filtered Honey (4 lb)
+* Raspberry Extract (3 lbs)
 
 Yeast:
 
