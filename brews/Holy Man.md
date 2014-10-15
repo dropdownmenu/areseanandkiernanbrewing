@@ -1,7 +1,7 @@
 Holy Man
 ===
 
-> Old Rasputin Clone. (Original Recipe.)[http://byo.com/stories/issue/item/1182-north-coasts-old-rasputin-the-replicator]
+> Old Rasputin Clone. [Original Recipe.](http://byo.com/stories/issue/item/1182-north-coasts-old-rasputin-the-replicator)
 
 OG = 1.090
 
