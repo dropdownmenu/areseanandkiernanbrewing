@@ -1,7 +1,7 @@
 Madtown Mead
 ===
 
-> Based on [http://www.northernbrewer.com/documentation/meadkits/ArtisanalGeneric5.pdf](Northern Brewer Mead Sack Strength.)
+> Based on (Northern Brewer Mead Sack Strength.)[http://www.northernbrewer.com/documentation/meadkits/ArtisanalGeneric5.pdf]
 
 Original Gravity : ~1.083
 
