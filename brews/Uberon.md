@@ -20,6 +20,10 @@ Hops:
 * Saaz (1oz, in secondary)
 * Coriander (3 Tbl, in secondary)
 
+Yeast:
+
+* American Ale II (Wyeast 1272)
+
 Notes:
 
 * Still fermenting
