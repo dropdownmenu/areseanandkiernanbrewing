@@ -2,9 +2,9 @@ Mini Me Barleywine
 ===
 
 > Based on [Lord Big Barleywine](http://byo.com/stories/issue/item/224-big-bad-barleywine)
-> Note: only yeilds 2.5 gallons!
+> Note: only yields 2.5 gallons!
 
-Original Gravity : ---
+Original Gravity : 1.119
 Final Gravity : ---
 
 Fermatables:
@@ -28,7 +28,7 @@ Yeast:
 
 Notes:
 
-  * Only yeilds 2.5 gallons!
+  * Only yields 2.5 gallons!
   * Uses 4 different yeasts to ferment all the surgar in the wort.
-  * Pull about 5 gallons out of the mash ton, but wort was boild down to 3.
+  * Pull about 5 gallons out of the mash tun, but wort was boiled down to 3.
   * Enough surgar left in the mash ton to make [Sloppy Seconds](http://dropdownmenu.github.io/areseanandkiernanbrewing)
