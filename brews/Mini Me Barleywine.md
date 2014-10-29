@@ -7,9 +7,9 @@ Mini Me Barleywine
 Original Gravity : 1.119
 Final Gravity : ---
 
-Fermatables:
+Fermentables:
 
-* 2 row malt (13 lbs)
+* 2 Row malt (13 lbs)
 * Belgian Pale (3 lb)
 * Pale Crystal (.5 lb)
 
@@ -31,4 +31,4 @@ Notes:
   * Only yields 2.5 gallons!
   * Uses 4 different yeasts to ferment all the surgar in the wort.
   * Pull about 5 gallons out of the mash tun, but wort was boiled down to 3.
-  * Enough surgar left in the mash ton to make [Sloppy Seconds](http://dropdownmenu.github.io/areseanandkiernanbrewing)
+  * Enough surgar left in the mash tun to make [Sloppy Seconds](http://dropdownmenu.github.io/areseanandkiernanbrewing)
