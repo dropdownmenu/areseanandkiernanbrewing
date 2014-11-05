@@ -26,4 +26,5 @@ Yeast:
 
 Notes:
 
-* Still fermenting
+* Very light - definitely a summer beet
+* Tastes just like Oberon!
