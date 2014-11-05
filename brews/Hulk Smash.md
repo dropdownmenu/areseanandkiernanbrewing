@@ -1,9 +1,9 @@
 Hulk Smash!
 ===
 
-> A *S*ingle *M*alt *A*nd *S*ingle *H*op beer
+> A Single Malt And Single Hop beer (SMASH)
 
-OG: 1.050
+OG: ---
 
 Grain Bill:
 
