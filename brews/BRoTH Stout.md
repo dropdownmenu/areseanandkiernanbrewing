@@ -1,5 +1,7 @@
-GTFO Stout
+B.R.o.T.H. Stout
 ===
+
+> Beast Rebel of The Hellscape Stout
 
 > Based on [Guinness Extra Stout ](http://www.beersmith.com/Recipes2/recipe_154.htm)
 
