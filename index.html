@@ -76,7 +76,9 @@
           $('#stillBrewing-status').text('Yes!');
           $('#stillBrewing-lead').text('What are we brewing?');
         } else {
+          var brewtimeElapsed = (today.getTime() - manifest.brews[0].date_obj.getTime());
           $('#stillBrewing-status').text('No...');
+          $('#stillBrewing-status').brewtimeElapsed;
           $('#stillBrewing-lead').text('What did we brew?');
         }
 
