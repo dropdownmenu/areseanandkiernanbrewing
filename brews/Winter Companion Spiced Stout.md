@@ -16,7 +16,7 @@ Grain Bill:
 
 Hops:
 
-* Pearle [7.80 %] (2.0 oz, 60 minutes)
+* Pearle AA 7.80 % (2.0 oz, 60 minutes)
 * Fuggle (1oz, dry hop)
 
 Other:
