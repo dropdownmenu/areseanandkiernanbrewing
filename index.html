@@ -76,7 +76,7 @@
         var brewtimeElapsedmilli = today.getTime() - manifest.brews[0].date_obj.getTime(); 
         var numdays = Math.floor(brewtimeElapsedmilli % 86400000); 
         var numhours = Math.floor((brewtimeElapsedmilli % 86400000) / 3600);
-        var numminutes = Math.floor((brewtimeElapsedmilli % 86400000) % 3600) / 60);
+        var numminutes = Math.floor(((brewtimeElapsedmilli % 86400000) % 3600) / 60);
         var numseconds = ((brewtimeElapsedmilli % 86400000) % 3600) % 60;
         var brewtimeElapsed = numdays + " days " + numhours + " hours " + numminutes + " minutes " + numseconds + " seconds";
         
