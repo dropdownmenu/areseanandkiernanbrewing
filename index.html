@@ -25,6 +25,7 @@
         <h1>We Should Brew . Beer</h1>
         <h2>Are Sean and Kiernan Brewing?</h2>
         <h3 id="stillBrewing-status"></h3>
+        <h4 id="stillBrewing-elapsed"></h4>
         <a href="http://imgur.com/vmCcP52"><img src="http://i.imgur.com/vmCcP52.jpg" title="source: imgur.com" /></a>
       </header>
       <section>
@@ -77,7 +78,8 @@
           $('#stillBrewing-lead').text('What are we brewing?');
         } else {
           var brewtimeElapsed = today.getTime() - manifest.brews[0].date_obj.getTime();
-          $('#stillBrewing-status').text('No...').brewtimeElapsed;
+          $('#stillBrewing-status').text('No...');
+          $('#stillBrewing-elapsed').text("It's been ".brewtimeElapsed." since we brewed.");
           $('#stillBrewing-lead').text('What did we brew?');
         }
 
