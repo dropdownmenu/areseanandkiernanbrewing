@@ -1,9 +1,9 @@
 Winter Companion Spiced Stout
 ===
 
-> A winter warmer spiced Stout. [Based on.](https://byo.com/blogs/entry/bell-s-oberon-clone-woodberon)
+> A winter warmer spiced Stout. [Based on.](http://www.beersmith.com/Recipes2/recipe_322.htm)
 
-OG: 1.050
+Estimated OG : 23.5 &#176;P
 
 Grain Bill:
 
