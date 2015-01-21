@@ -74,10 +74,10 @@
         var stillBrewing = ((today.getTime() - manifest.brews[0].date_obj.getTime()) / (1000 * 60 * 60 * 24) < 1);
         
         var brewtimeElapsedmilli = (today.getTime() - manifest.brews[0].date_obj.getTime()); 
-        var numdays = Math.floor(brewtimeElapsedmilli % (1000 * 60 * 60 * 24)); 
-        var numhours = Math.floor((brewtimeElapsedmilli % (1000 * 60 * 60 * 24)) / 3600);
-        var numminutes = Math.floor(((brewtimeElapsedmilli % (1000 * 60 * 60 * 24)) % 3600) / 60);
-        var numseconds = ((brewtimeElapsedmilli % (1000 * 60 * 60 * 24)) % 3600) % 60;
+        var numdays = Math.floor(brewtimeElapsedmilli / (1000 * 60 * 60 * 24)); 
+        var numhours = Math.floor((brewtimeElapsedmilli / (1000 * 60 * 60 * 24)) / 3600);
+        var numminutes = Math.floor(((brewtimeElapsedmilli / (1000 * 60 * 60 * 24)) % 3600) / 60);
+        var numseconds = ((brewtimeElapsedmilli / (1000 * 60 * 60 * 24)) % 3600) % 60;
         var brewtimeElapsed = numdays + " days " + numhours + " hours " + numminutes + " minutes " + numseconds + " seconds";
         
         if (stillBrewing) {
