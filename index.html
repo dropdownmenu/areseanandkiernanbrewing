@@ -33,7 +33,7 @@
         <div id="mostRecentBrews"></div>
       </section>
       <section>
-        <h3>Our Beers</h3>
+        <h3>Brewlog</h3>
         <table id="results-table" class="table table-hover">
           <tr>
             <th>Name</th>
@@ -73,12 +73,13 @@
 
         var stillBrewing = ((today.getTime() - manifest.brews[0].date_obj.getTime()) / (1000 * 60 * 60 * 24) < 1);
         
-        var brewtimeElapsedmilli = (today.getTime() - manifest.brews[0].date_obj.getTime()); 
+        var brewtimeElapsedmilli = (today.getTime() - manifest.brews[0].date_obj.getTime());
         var numdays = Math.floor(brewtimeElapsedmilli / (1000 * 60 * 60 * 24)); 
         var brewtimeElapsed = numdays + " day";
         if (numdays > 1) {
           var brewtimeElapsed = brewtimeElapsed.concat('s')
         }
+        // determine time since last brew for brew counter
         
         if (stillBrewing) {
           $('#stillBrewing-status').text('Yes!');
