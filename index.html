@@ -72,12 +72,20 @@
         var today = new Date();
 
         var stillBrewing = ((today.getTime() - manifest.brews[0].date_obj.getTime()) / (1000 * 60 * 60 * 24) < 1);
-
+         var brewtimeElapsedmilli = today.getTime() - manifest.brews[0].date_obj.getTime(); 
+          var numyears = Math.floor(brewtimeElapsedmilli / 31536000);
+          var numdays = Math.floor((brewtimeElapsedmilli % 31536000) / 86400); 
+          var numhours = Math.floor(((brewtimeElapsedmilli % 31536000) % 86400) / 3600);
+          var numminutes = Math.floor((((brewtimeElapsedmilli % 31536000) % 86400) % 3600) / 60);
+          var numseconds = (((brewtimeElapsedmilli % 31536000) % 86400) % 3600) % 60;
+          brewtimeElapsed = numyears + " years " +  numdays + " days " + numhours + " hours " + numminutes + " minutes " + numseconds + " seconds";
+          
+          }
+        
         if (stillBrewing) {
           $('#stillBrewing-status').text('Yes!');
           $('#stillBrewing-lead').text('What are we brewing?');
         } else {
-          var brewtimeElapsed = today.getTime() - manifest.brews[0].date_obj.getTime();
           $('#stillBrewing-status').text('No...');
           $('#stillBrewing-elapsed').text("It's been " + brewtimeElapsed + " since we brewed.");
           $('#stillBrewing-lead').text('What did we brew?');
