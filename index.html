@@ -79,7 +79,7 @@
         } else {
           var brewtimeElapsed = today.getTime() - manifest.brews[0].date_obj.getTime();
           $('#stillBrewing-status').text('No...');
-          $('#stillBrewing-elapsed').text("It's been ".brewtimeElapsed." since we brewed.");
+          $('#stillBrewing-elapsed').text("It's been " + brewtimeElapsed + " since we brewed.");
           $('#stillBrewing-lead').text('What did we brew?');
         }
 
