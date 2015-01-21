@@ -104,7 +104,7 @@
             obj.html = markdown.toHTML(data);
             cb(null, obj);
           }).fail(function() {
-            console.error('Failed to get recipie for ' + obj.name);
+            console.error('Failed to get recipe for ' + obj.name);
             cb(null, obj);
           });
         }
