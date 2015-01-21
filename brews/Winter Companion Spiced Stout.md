@@ -23,9 +23,9 @@ Other:
 
 * Cloves (1.0 tsp, 15 min)
 * Alspice (2.0 tsp, 15 min)
-* Sweet Orange Peel (50 grams, 45 min)
+* Sweet Orange Peel (3 oz, 45 min)
 * Cinnamon Stick (1 stick, 45 min)
-* Ginger Root (50 grams, 45 min)
+* Ginger Root (3 oz, 45 min)
 
 Yeast:
 
