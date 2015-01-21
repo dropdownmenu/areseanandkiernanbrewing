@@ -14,7 +14,8 @@ Grain Bill:
 
 Yeast:
 
-* Lactobacillus (Wyeast 5335) reused from Home Skillet Scotch Ale
+* Lactobacillus (Wyeast 5335)
 
 Notes:
 
+4 days after pitching mild sourness detected.
