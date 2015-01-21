@@ -3,7 +3,7 @@ Winter Companion Spiced Stout
 
 > A winter warmer spiced Stout. [Based on Fred Bonjour's Beersmith Recipe.](http://www.beersmith.com/Recipes2/recipe_322.htm)
 
-Estimated OG : 22.56 &#176;P
+Estimated OG : 22.56 0xC2P
 
 Grain Bill:
 
