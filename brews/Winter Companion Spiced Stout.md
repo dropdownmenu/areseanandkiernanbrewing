@@ -3,7 +3,7 @@ Winter Companion Spiced Stout
 
 > A winter warmer spiced Stout. [Based on Fred Bonjour's Beersmith Recipe.](http://www.beersmith.com/Recipes2/recipe_322.htm)
 
-Estimated OG : 23.5 &#176;P
+Estimated OG : 22.56 &#176;P
 
 Grain Bill:
 
@@ -16,18 +16,20 @@ Grain Bill:
 
 Hops:
 
-* Hersbrucker (1.5 oz, 60 minutes)
-* Hersbrucker (1.5oz, 20 minues)
-* Saaz (1oz, 5 minutes)
-* Saaz (1oz, 1 minutes)
-* Saaz (1oz, in secondary)
-* Coriander (3 Tbl, in secondary)
+* Pearle [7.80 %] (2.0 oz, 60 minutes)
+* Fuggle (1oz, dry hop)
+
+Other:
+
+* Cloves (1.0 tsp, 15 min)
+* Alspice (2.0 tsp, 15 min)
+* Sweet Orange Peel (50 grams, 45 min)
+* Cinnamon Stick (1 stick, 45 min)
+* Ginger Root (50 grams, 45 min)
 
 Yeast:
 
-* American Ale II (Wyeast 1272)
+* Belgian Strong Ale (Wyeast 1388) reused from Home Skillet Scotch Ale
 
 Notes:
 
-* Very light - definitely a summer beet
-* Tastes just like Oberon!
