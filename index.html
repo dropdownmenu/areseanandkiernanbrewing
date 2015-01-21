@@ -21,15 +21,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Are Sean and Kiernan Brewing?</h1>
-        <h1>Not this second</h1>
+        <h1>We Should Brew . Beer</h1>
+        <h2>Are Sean and Kiernan Brewing?</h2>
+        <h3 id="stillBrewing-status"></h3>
         <a href="http://imgur.com/vmCcP52"><img src="http://i.imgur.com/vmCcP52.jpg" title="source: imgur.com" /></a>
       </header>
       <section>
-        <h2>What are we brewing?</h2>
-        <h3>Winter Companion Spiced Stout (5 gal)</h3>
-        <h3>Sacre Blonde Sour(1 gal)</h3>
-        <h3>White Girl Wasted White IPA (5 gal)</h3>
+        <h2 id="stillBrewing-lead"></h2>
+        <div id="mostRecentBrews"></div>
       </section>
       <section>
         <h3>Our Beers</h3>
@@ -67,6 +66,36 @@
           return b.date_obj.getTime() - a.date_obj.getTime();
         });
 
+        // determine if we are 'still brewing'
+        var today = new Date();
+
+        var stillBrewing = ((today.getTime() - manifest.brews[0].date_obj.getTime()) / (1000 * 60 * 60 * 24) < 1);
+
+        if (stillBrewing) {
+          $('#stillBrewing-status').text('Yes!');
+          $('#stillBrewing-lead').text('What are we brewing?');
+        } else {
+          $('#stillBrewing-status').text('No...');
+          $('#stillBrewing-lead').text('What did we brew?');
+        }
+
+        // gather the most recent batch
+        var batch = [manifest.brews[0]];
+        var targetDate = manifest.brews[0].date_obj;
+        for (var i = 1; i < manifest.brews.length; i++) {
+          if (manifest.brews[i].date_obj.getTime() < targetDate.getTime()) {
+            break;
+          }
+          batch.push(manifest.brews[i]);
+        }
+
+        batch.forEach(function(b) {
+          var newElem = $('<h3></h3>');
+          newElem.text(b.name);
+          $('#mostRecentBrews').append(newElem);
+        });
+
+        // get a brews recipie and renders its markdown
         function displayBrew(obj, cb) {
           $.get(manifest.base_path + obj.path, function(data) {
             obj.html = markdown.toHTML(data);
@@ -77,6 +106,7 @@
           });
         }
 
+        // render out the table + recipies for brews in the manifest
         async.map(manifest.brews, displayBrew, function(err, newObjs) {
           newObjs.forEach(function(o) {
             var fragment = $(rowTemplate({
