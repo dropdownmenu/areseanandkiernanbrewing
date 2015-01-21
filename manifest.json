@@ -1,0 +1,90 @@
+{
+  "base_path": "brews/",
+  "brews": [
+    {
+      "name": "Sacre Blonde Sour",
+      "path": "Sacre Blonde Sour.md",
+      "date": "1/15/2015"
+    },
+    {
+      "name": "White Girl Wasted White IPA",
+      "path": "White Girl Wasted White IPA.md",
+      "date": "1/15/2015"
+    },
+    {
+      "name": "Winter Companion Spiced Stout",
+      "path": "Winter Companion Spiced Stout.md",
+      "date": "1/15/2015"
+    },
+    {
+      "name": "Bourban Barrel Barley Wine",
+      "path": "Bourban Barrel Barley Wine.md",
+      "date": "12/6/2014"
+    },
+    {
+      "name": "Snowmelt Parti-gyle Ale",
+      "path": "Snowmelt Parti-gyle Ale.md",
+      "date": "12/6/2014"
+    },
+    {
+      "name": "Snowmelt Parti-gyle Sour Ale",
+      "path": "Snowmelt Parti-gyle Sour Ale.md",
+      "date": "12/6/2014"
+    },
+    {
+      "name": "B.R.o.T.H. Stout",
+      "path": "BRoTH Stout.md",
+      "date": "11/13/2014"
+    },
+    {
+      "name": "Hulk Smash",
+      "path": "Hulk Smash.md",
+      "date": "11/4/2014"
+    },
+    {
+      "name": "Mini Me",
+      "path": "Mini Me Barleywine.md",
+      "date": "10/28/2014"
+    },
+    {
+      "name": "Sloppy Seconds",
+      "path": "Sloppy Seconds.md",
+      "date": "10/28/2014"
+    },
+    {
+      "name": "Holy Man",
+      "path": "Holy Man.md",
+      "date": "10/6/2014"
+    },
+    {
+      "name": "Uberon",
+      "path": "Uberon.md",
+      "date": "10/2/2014"
+    },
+    {
+      "name": "All Grain All Day",
+      "path": "All Grain Black IPA.md",
+      "date": "9/29/2014"
+    },
+    {
+      "name": "Madtown Mead",
+      "path": "Madtown Mead.md",
+      "date": "9/22/2014"
+    },
+    {
+      "name": "Apple Ale",
+      "path": "Apple Ale.md",
+      "date": "9/18/2014"
+    },
+    {
+      "name": "Blackberry Amber",
+      "path": "Blackberry Amber.md",
+      "date": "9/11/2014"
+    },
+    {
+      "name": "Skullfucker",
+      "path": "Skullfucker APA.md",
+      "date": "9/2/2014"
+    }
+  ]
+}

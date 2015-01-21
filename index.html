@@ -11,6 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="markdown.js"></script>
+    <script src="underscore.min.js"></script>
+    <script src="async.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -30,102 +33,68 @@
       </section>
       <section>
         <h3>Our Beers</h3>
-        <table>
+        <table id="results-table" class="table table-hover">
           <tr>
             <th>Name</th>
             <th>Date</th>
           </tr>
-          <tr>
-            <td>Sacre Blonde Sour</td>
-            <td>1/15/2015</td>
-          </tr>
-          <tr>
-            <td>White Girl Wasted White IPA</td>
-            <td>1/15/2015</td>
-          </tr>
-          <tr>
-            <td>Winter Companion Spiced Stout</td>
-            <td>1/15/2015</td>
-          </tr>
-          <tr>
-          <tr>
-            <td>Bourban Barrel Barley Wine</td>
-            <td>12/6/2014</td>
-          </tr>
-          <tr>
-            <td>Snowmelt Parti-gyle Ale</td>
-            <td>12/6/2014</td>
-          </tr>
-          <tr>
-            <td>Snowmelt Parti-gyle Sour Ale</td>
-            <td>12/6/2014</td>
-          </tr>
-          <tr>
-            <td>B.R.o.T.H. Stout</td>
-            <td>11/13/2014</td>
-          </tr>
-          <tr>
-            <td>Hulk Smash</td>
-            <td>11/4/2014</td>
-          </tr>
-          <tr>
-            <td>Mini Me</td>
-            <td>10/28/2014</td>
-          </tr>
-          <tr>
-            <td>Sloppy Seconds</td>
-            <td>10/28/2014</td>
-          </tr>
-          <tr>
-            <td>Holy Man</td>
-            <td>10/6/2014</td>
-          </tr>
-          <tr>
-            <td>Uberon</td>
-            <td>10/2/2014</td>
-          </tr>
-          <tr>
-            <td>All Grain All Day</td>
-            <td>9/29/2014</td>
-          </tr>
-          <tr>
-            <td>Madtown Mead</td>
-            <td>9/22/2014</td>
-          </tr>
-          <tr>
-            <td>Apple Ale</td>
-            <td>9/18/2014</td>
-          </tr>
-          <tr>
-            <td>Blackberry Amber</td>
-            <td>9/11/2014</td>
-          </tr>
-          <tr>
-            <td>Skullfucker</td>
-            <td>9/2/2014</td>
-          </tr>
         </table>
-        <div class="panel-group" id="brews" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="12-2-14_head">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#brews" href="#09-2-14" aria-expanded="true" aria-controls="09-2-14">
-                  Skullfucker IPA
-                </a>
-              </h4>
-            </div>
-            <div id="09-2-14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="09-2-14_head">
-              <div class="panel-body">
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/dropdownmenu">dropdownmenu</a> | <a href="https://github.com/madtown">madtown</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+    <script type="text/x-template", id="row-template">
+      <tr>
+      <td><%= name %></td>
+      <td><%= date %></td>
+      </tr>
+      <tr style="display: none">
+      <td colspan="2"><%= html %></td>
+      </tr>
+    </script>
+    <script type="text/javascript">
+    /* global markdown, async, $, _ */
+    $(function() {
+      var rowTemplate = _.template($('#row-template').html());
+      $.get('manifest.json', function(manifest) {
+        // put a date object on each brew
+        manifest.brews.forEach(function(b) {
+          b.date_obj = new Date(b.date);
+        });
+        manifest.brews.sort(function(a, b) {
+          return b.date_obj.getTime() - a.date_obj.getTime();
+        });
+
+        function displayBrew(obj, cb) {
+          $.get(manifest.base_path + obj.path, function(data) {
+            obj.html = markdown.toHTML(data);
+            cb(null, obj);
+          }).fail(function() {
+            console.error('Failed to get recipie for ' + obj.name);
+            cb(null, obj);
+          });
+        }
+
+        async.map(manifest.brews, displayBrew, function(err, newObjs) {
+          newObjs.forEach(function(o) {
+            var fragment = $(rowTemplate({
+              name: o.name,
+              date: o.date,
+              html: o.html
+            }));
+            fragment.first('tr').click(function() {
+              console.log('you clicked me!');
+              fragment.last('tr').toggle();
+            });
+            $('#results-table tbody').append(fragment);
+          });
+        });
+
+      });
+    });
+    </script>
     <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
