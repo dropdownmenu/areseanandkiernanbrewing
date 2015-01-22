@@ -2,6 +2,11 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Moment of Clarity",
+      "path": "Moment of Clarity.md",
+      "date": "1/22/2015"
+    },
+    {
       "name": "Taste of Victory Barleywine",
       "path": "Taste of Victory.md",
       "date": "1/22/2015"
