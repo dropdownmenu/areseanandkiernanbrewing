@@ -2,6 +2,11 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Taste of Victory Barleywine",
+      "path": "Taste of Victory.md",
+      "date": "1/22/2015"
+    },
+    {
       "name": "Sacre Blonde Sour",
       "path": "Sacre Blonde Sour Ale.md",
       "date": "1/15/2015"
