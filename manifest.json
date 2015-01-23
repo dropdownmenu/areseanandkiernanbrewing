@@ -4,101 +4,121 @@
     {
       "name": "Moment of Clarity IPA",
       "path": "Moment of Clarity IPA.md",
+      "volume": "5",
       "date": "1/22/2015"
     },
     {
       "name": "Taste of Victory Barleywine",
       "path": "Taste of Victory.md",
+      "volume": "3",
       "date": "1/22/2015"
     },
     {
       "name": "Sacre Blonde Sour",
       "path": "Sacre Blonde Sour Ale.md",
+      "volume": "1",
       "date": "1/15/2015"
     },
     {
       "name": "White Girl Wasted White IPA",
       "path": "White Girl Wasted White IPA.md",
+      "volume": "5",
       "date": "1/15/2015"
     },
     {
       "name": "Winter Companion Spiced Stout",
       "path": "Winter Companion Spiced Stout.md",
+      "volume": "5",
       "date": "1/15/2015"
     },
     {
       "name": "Home Skillet Scotch Ale",
       "path": "Home Skillet Scotch Ale.md",
+      "volume": "5",
       "date": "1/4/15"
     },
     {
       "name": "Best Man Barleywine",
       "path": "Best Man Barleywine.md",
+      "volume": "10",
       "date": "12/6/2014"
     },
     {
       "name": "Snowmelt Parti-gyle Ale",
       "path": "Snowmelt Parti-gyle Ale.md",
-      "date": "12/6/2014"
-    },
-    {
-      "name": "Snowmelt Parti-gyle Sour Ale",
-      "path": "Snowmelt Parti-gyle Sour Ale.md",
+      "volume": "10",
       "date": "12/6/2014"
     },
     {
       "name": "B.R.o.T.H. Stout",
       "path": "BRoTH Stout.md",
+      "volume": "5",
       "date": "11/13/2014"
     },
     {
       "name": "Hulk Smash",
       "path": "Hulk Smash.md",
+      "volume": "5",
       "date": "11/4/2014"
     },
     {
       "name": "Mini Me",
       "path": "Mini Me Barleywine.md",
+      "volume": "2.5",
       "date": "10/28/2014"
     },
     {
       "name": "Sloppy Seconds",
       "path": "Sloppy Seconds.md",
+      "volume": "5",
       "date": "10/28/2014"
     },
     {
       "name": "Holy Man",
       "path": "Holy Man.md",
+      "volume": "5",
       "date": "10/6/2014"
     },
     {
       "name": "Uberon",
       "path": "Uberon.md",
+      "volume": "5",
       "date": "10/2/2014"
     },
     {
       "name": "All Grain All Day",
       "path": "All Grain Black IPA.md",
+      "volume": "5",
       "date": "9/29/2014"
     },
     {
       "name": "Madtown Mead",
       "path": "Madtown Mead.md",
+      "volume": "5",
       "date": "9/22/2014"
     },
     {
       "name": "Apple Ale",
       "path": "Apple Ale.md",
+      "volume": "5",
       "date": "9/18/2014"
     },
     {
       "name": "Blackberry Amber",
       "path": "Blackberry Amber.md",
+      "volume": "5",
       "date": "9/11/2014"
     },
     {
       "name": "Skullfucker",
       "path": "Skullfucker APA.md",
+      "volume": "5",
+      "date": "9/2/2014"
+    },
+    {
+      "name": "Move-in Amber",
+      "path": "Skullfucker APA.md",
+      "volume": "5",
       "date": "9/2/2014"
     }
   ]
