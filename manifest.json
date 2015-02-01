@@ -2,6 +2,16 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Ron Burgundy Imperial Scotch Ale",
+      "path": "Ron Burgundy Imperial Scotch Ale.md",
+      "volume": "5",
+      "date": "1/29/2015"
+    },{
+      "name": "Uberon II",
+      "path": "Uberon II.md",
+      "volume": "5",
+      "date": "1/29/2015"
+    },{
       "name": "Moment of Clarity IPA",
       "path": "Moment of Clarity IPA.md",
       "volume": "5",
