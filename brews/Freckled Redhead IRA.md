@@ -1,4 +1,4 @@
-Freckled Redhead Irish Red Alee
+Freckled Redhead Irish Red Ale
 ===
 
 > Original Recipe
