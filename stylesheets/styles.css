@@ -1,5 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+.rotateIcon {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.rotateIcon [class*="fa fa-"] {
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+.rotateIcon:hover [class*="fa fa-"] {
+    /* color: #24a159 !important; */
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
 .banner {
 	position: relative;
 	z-index: 1;
