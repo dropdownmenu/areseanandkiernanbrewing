@@ -66,7 +66,7 @@
     </footer>
     <script type="text/x-template", id="row-template">
       <tr style="border-bottom: 1px solid #ddd;">
-        <td style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;"><i id="icon-dropdown"></i> <%= name %></td>
+        <td style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;"><i class="fa fa-beer" id="icon-dropdown"></i> <%= name %></td>
         <td style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;float:right;"><%= date %></td>
       </tr>
       <tr style="display: none">
@@ -146,8 +146,7 @@
             fragment.first('tr').click(function() {
               console.log('you clicked me!');
               fragment.last('tr').toggle();
-              $('#icon-dropdown').removeClass('fa fa-beer');
-              $('#icon-dropdown').addClass('fa fa-beer fa-rotate-90');
+              $('#icon-dropdown').addClass('fa-rotate-90');
             });
             $('#results-table tbody').append(fragment);
           });
