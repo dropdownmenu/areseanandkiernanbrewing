@@ -75,6 +75,9 @@
     </script>
     <script type="text/javascript">
     /* global markdown, async, $, _ */
+    $(".rotate").click(function(){
+     $(this).toggleClass("down")  ; 
+    })
     $(function() {
       var rowTemplate = _.template($('#row-template').html());
       $.get('manifest.json', function(manifest) {
@@ -146,7 +149,6 @@
             fragment.first('tr').click(function() {
               console.log('you clicked me!');
               fragment.last('tr').toggle();
-              $('#icon-dropdown').addClass('fa-rotate-90');
             });
             $('#results-table tbody').append(fragment);
           });
