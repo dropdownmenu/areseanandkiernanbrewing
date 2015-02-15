@@ -52,8 +52,8 @@
       <h3>Brewlog</h3>
       <table id="results-table" class="table table-hover shadow-z-2" style="background-color:white;">
         <tr style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;">
-          <th>Name</th>
-          <th style="float:right;">Date</th>
+          <th><i class="fa fa-beer"></i> Name</th>
+          <th style="float:right;"><i class="fa fa-calendar"></i> Date</th>
         </tr>
       </table>
     </div>
@@ -64,7 +64,7 @@
     <script type="text/x-template", id="row-template">
       <tr style="border-bottom: 1px solid #ddd;">
         <td style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;"><i class="fa fa-beer"></i> <%= name %></td>
-        <td style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;float:right;"><i class="fa fa-calendar"></i> <%= date %></td>
+        <td style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;float:right;"><%= date %></td>
       </tr>
       <tr style="display: none">
         <td colspan="2"><%= html %></td>
@@ -121,7 +121,7 @@
           $('#mostRecentBrews').append(newElem);
         });
 
-        // get a brews recipie and renders its markdown
+        // get a brews recipe and renders its markdown
         function displayBrew(obj, cb) {
           $.get(manifest.base_path + obj.path, function(data) {
             obj.html = markdown.toHTML(data);
