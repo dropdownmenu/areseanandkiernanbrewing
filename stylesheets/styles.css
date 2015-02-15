@@ -21,7 +21,7 @@
 }
 
 .rotateIcon:hover [class*="fa fa-"] {
-    /* color: #24a159 !important; */
+    color: #24a159 !important;
     -webkit-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
     -o-transform:rotate(90deg);
