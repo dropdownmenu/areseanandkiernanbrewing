@@ -1,7 +1,7 @@
 Freckled Redhead Irish Red Ale
 ===
 
-> Original Recipe
+> Adapted from [Arrogant Leprechaun IRA.](http://beersmithrecipes.com/viewrecipe/81319/arrogant-leprechaun-ira)
 
 Original Gravity : ?
 
