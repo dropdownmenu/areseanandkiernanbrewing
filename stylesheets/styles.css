@@ -12,7 +12,7 @@
     transition-property: transform;
 }
 
-.rotateIcon:click [class*="fa fa-"] {
+.rotateIcon:active [class*="fa fa-"] {
     -webkit-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
     -o-transform:rotate(90deg);
