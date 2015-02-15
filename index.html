@@ -51,7 +51,7 @@
     <div class="col-md-8 col-lg-9">
       <h3>Brewlog</h3>
       <table id="results-table" class="table table-hover shadow-z-2" style="background-color:white;">
-        <tr style="border-bottom: 1px solid #ddd;">
+        <tr style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;">
           <th>Name</th>
           <th class="pull-right">Date</th>
         </tr>
@@ -63,7 +63,7 @@
     </footer>
     <script type="text/x-template", id="row-template">
       <tr style="border-bottom: 1px solid #ddd;">
-        <td style="border-bottom: 1px solid #ddd;"><i class="fa fa-beer"></i> <%= name %></td>
+        <td style="border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;"><i class="fa fa-beer"></i> <%= name %></td>
         <td class="pull-right"><i class="fa fa-calendar"></i> <%= date %></td>
       </tr>
       <tr style="display: none">
