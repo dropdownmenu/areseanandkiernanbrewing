@@ -1,22 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
-.rotateIcon [class*="fa fa-"] {
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
+.rotate{
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
 }
 
-.rotateIcon:active [class*="fa fa-"] {
-    -webkit-transform:rotate(90deg);
+.rotate.down{
+    -ms-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
-    -o-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
     transform:rotate(90deg);
+}
+
+.rotate.up{
+    -ms-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    transform:rotate(-90deg);
 }
 
 .banner {
