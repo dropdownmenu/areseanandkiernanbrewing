@@ -153,6 +153,15 @@
 
       });
     });
+    $(document).ready(function(){    
+    $('#results-table').on('shown', function () {
+       $(".fa fa-beer fa-rotate").removeClass(".fa fa-beer").addClass(".fa fa-beer fa-rotate");
+    });
+
+    $('#accordProfile').on('hidden', function () {
+       $(".fa fa-beer").removeClass(".fa fa-beer fa-rotate").addClass(".fa fa-beer");
+    });
+});
     </script>
     <script src="javascripts/scale.fix.js"></script>
   </body>
