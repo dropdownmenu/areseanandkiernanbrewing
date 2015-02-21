@@ -2,6 +2,11 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Barrel-Aged Imperial Amber",
+      "path": "Imperial Amber.md",
+      "volume": "5",
+      "date": "2/21/2015"
+    },{
       "name": "Freckled Redhead IRA",
       "path": "Freckled Redhead IRA.md",
       "volume": "5",
