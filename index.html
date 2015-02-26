@@ -151,7 +151,7 @@
             }));
             fragment.first('tr').click(function() {
               console.log('you clicked me!');
-              fragment.last('tr').toggle();
+              fragment.last('tr').toggle("slow");
             });
             $('#results-table tbody').append(fragment);
           });
