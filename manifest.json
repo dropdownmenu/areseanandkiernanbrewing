@@ -2,9 +2,20 @@
   "base_path": "brews/",
   "brews": [
     {
-      "name": "Barrel-Aged Imperial Amber",
+      "name": "Moment of Clarity IPA Round 2",
+      "path": "Moment of Clarity IPA.md",
+      "volume": "5",
+      "date": "3/3/2015"
+    }, {
+      "name": "Barrel-Aged Imperial Amber Part 2",
       "path": "Imperial Amber.md",
       "volume": "5",
+      "date": "3/3/2015"
+    },
+    {
+      "name": "Barrel-Aged Imperial Amber",
+      "path": "Imperial Amber.md",
+      "volume": "10",
       "date": "2/21/2015"
     },{
       "name": "Freckled Redhead IRA",
