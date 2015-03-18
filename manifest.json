@@ -2,6 +2,11 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Moar Barleywine",
+      "path": "Moar Barleywine.md",
+      "volume": "2.5",
+      "date": "3/11/2015"
+    }, {
       "name": "Moment of Clarity IPA Round 2",
       "path": "Moment of Clarity IPA.md",
       "volume": "5",
