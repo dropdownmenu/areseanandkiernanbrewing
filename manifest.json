@@ -2,6 +2,21 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Holy Man Revival",
+      "path": "Holy Man Revival.md",
+      "volume": "5",
+      "date": "3/28/2015"
+    },{
+      "name": "B-Dubs Belgan Dubbel",
+      "path": "B-Dubs Belgan Dubbel.md",
+      "volume": "5",
+      "date": "3/28/2015"
+    },{
+      "name": "Welker-Kolsch",
+      "path": "Welker-Kolsch.md",
+      "volume": "5",
+      "date": "3/12/2015"
+    },{
       "name": "Moar Barleywine",
       "path": "Moar Barleywine.md",
       "volume": "2.5",
