@@ -2,6 +2,11 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Tontine Trippel",
+      "path": "Tontine Trippel.md",
+      "volume": "5",
+      "date": "4/1/2015"
+    },{
       "name": "Holy Man Revival",
       "path": "Holy Man.md",
       "volume": "5",
