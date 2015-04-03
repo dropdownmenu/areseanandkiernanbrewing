@@ -2,6 +2,16 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Quixotic Quad",
+      "path": "Quixotic Quad.md",
+      "volume": "5",
+      "date": "4/3/2015"
+    },{
+      "name": "No Boil Rules!",
+      "path": "No Boil Rules!.md",
+      "volume": "5",
+      "date": "4/2/2015"
+    },{
       "name": "Tontine Trippel",
       "path": "Tontine Trippel.md",
       "volume": "5",
