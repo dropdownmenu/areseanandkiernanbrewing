@@ -15,7 +15,8 @@ Fermentables:
 * 0.25 lb CaraRed (0.25 lb)
 * 0.25 lb CaraPils (0.25 lb)
 * 0.25 lb Belgian Special "B" (0.25 lb)
-
+* Belgian candi sugar (1 lb @ 24 hours into Zymurgy)
+* Belgian candi sugar (1 lb @ 48 hours into Zymurgy)
 
 Hops:
 
