@@ -2,6 +2,21 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Moment of Clarity Mark IV",
+      "path": "Moment of Clarity Mark IV.md",
+      "volume": "5",
+      "date": "4/8/2015"
+    },{
+      "name": "Blue Moon McMarkson",
+      "path": "Quixotic Quad.md",
+      "volume": "5",
+      "date": "4/7/2015"
+    },{
+      "name": "Moment of Clarity Mark III",
+      "path": "Moment of Clarity Mark III.md",
+      "volume": "5",
+      "date": "4/5/2015"
+    },{
       "name": "Quixotic Quad",
       "path": "Quixotic Quad.md",
       "volume": "5",
@@ -22,8 +37,8 @@
       "volume": "5",
       "date": "3/28/2015"
     },{
-      "name": "B-Dubs Belgian Dubbel",
-      "path": "B-Dubs Belgian Dubbel.md",
+      "name": "Edwin Hubble Belgian Dubbel",
+      "path": "Edwin Hubble Belgian Dubbel.md",
       "volume": "5",
       "date": "3/31/2015"
     },{
