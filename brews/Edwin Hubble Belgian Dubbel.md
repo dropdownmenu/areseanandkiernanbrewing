@@ -1,4 +1,4 @@
-B-Dubs Belgian Dubbel
+Edwin Hubble Belgian Dubbel
 ===
 
 > Original Recipe
