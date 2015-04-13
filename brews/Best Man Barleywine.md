@@ -33,7 +33,7 @@ Notes:
  
 Determining Ethanol Content By Nuclear Magnetic Resonance Spectroscopy
 
-> Provided by Dr. Charles Fry PhD and the University of Wisconsin-Department of Chemistry.
+> Provided by Dr. Charles Fry PhD and the University of Wisconsin-Madison Department of Chemistry.
 
 ![alt text](http://i.imgur.com/of2Hj2d.png "NMR Bestman Barleywine")
 
