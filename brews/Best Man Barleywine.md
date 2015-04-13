@@ -30,3 +30,10 @@ Notes:
 
 * Makes 10 gallons and used to make 10 gallons of parti-gyle
 * Barreled at 3 weeks in freshly used Bourbon Barrel
+ 
+Determining Ethanol Content By Nuclear Magnetic Resonance Spectroscopy
+
+> Provided by Dr. Charles Fry PhD and the University of Wisconsin-Department of Chemistry.
+
+![alt text](http://i.imgur.com/of2Hj2d.png "NMR Bestman Barleywine")
+
