@@ -4,8 +4,8 @@ Best Man Barleywine
 > Based on [Lord Big Barleywine](http://byo.com/stories/issue/item/224-big-bad-barleywine)
 > Note: Yields 10 gallons!
 
-Original Gravity : 23.75 &#176;P
-Final Gravity : ---
+Original Gravity : 25 Degrees Plato
+Final Gravity Pre-Barrel : 13 Degrees Plato
 
 Fermentables:
 
