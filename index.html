@@ -168,16 +168,17 @@
         // determine time since last brew for brew counter
         
         if (stillBrewing) {
-          $('#stillBrewing-status').text('Yes!');
-          $('#stillBrewing-lead').text('What are we brewing?');
+          if (stillBrewing < 1) {
+            $('#stillBrewing-status').text('Not yet!');
+            $('#stillBrewing-lead').text('We are preparing to brew:');
+          } else {
+            $('#stillBrewing-status').text('Yes!');
+            $('#stillBrewing-lead').text('What are we brewing?');
+          }
         } else {
           $('#stillBrewing-status').text('No...');
           $('#stillBrewing-elapsed').text("It's been " + brewtimeElapsed + " since we brewed.");
           $('#stillBrewing-lead').text('What did we brew?');
-        }
-        if (willBrew) {
-          $('#stillBrewing-status').text('Not yet!');
-          $('#stillBrewing-lead').text('We are preparing to brew:');
         }
 
         // gather the most recent batch
