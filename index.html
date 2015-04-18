@@ -157,6 +157,7 @@
         var today = new Date();
 
         var stillBrewing = ((today.getTime() - manifest.brews[0].date_obj.getTime()) / (1000 * 60 * 60 * 24) < 1);
+        var willBrew = ((today.getTime() - manifest.brews[0].date_obj.getTime()) / (1000 * 60 * 60 * 24) > 1);
         
         var brewtimeElapsedmilli = (today.getTime() - manifest.brews[0].date_obj.getTime());
         var numdays = Math.floor(brewtimeElapsedmilli / (1000 * 60 * 60 * 24)); 
@@ -173,6 +174,10 @@
           $('#stillBrewing-status').text('No...');
           $('#stillBrewing-elapsed').text("It's been " + brewtimeElapsed + " since we brewed.");
           $('#stillBrewing-lead').text('What did we brew?');
+        }
+        if (willBrew) {
+          $('#stillBrewing-status').text('Not yet!');
+          $('#stillBrewing-lead').text('We are preparing to brew:');
         }
 
         // gather the most recent batch
