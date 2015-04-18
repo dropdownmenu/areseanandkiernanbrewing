@@ -2,6 +2,11 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Barrel Aged Flemish Red",
+      "path": "Barrel Aged Flemish Red.md",
+      "volume": "10",
+      "date": "4/19/2015"
+    },{
       "name": "Ron Burgundy Imperial Scotch Ale II",
       "path": "Ron Burgundy Imperial Scotch Ale.md",
       "volume": "5",
