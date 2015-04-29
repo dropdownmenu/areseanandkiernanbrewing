@@ -2,6 +2,21 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Moment of Clarity V",
+      "path": "Moment of Clarity V.md",
+      "volume": "5",
+      "date": "4/28/2015"
+    },{
+      "name": "Relapse IIPA",
+      "path": "Relapse IIPA.md",
+      "volume": "3",
+      "date": "4/21/2015"
+    },{
+      "name": "Barrel Aged Flemish Red",
+      "path": "Sploosh Pineapple Berliner Weiss.md",
+      "volume": "5",
+      "date": "4/21/2015"
+    },{
       "name": "Barrel Aged Flemish Red",
       "path": "Barrel Aged Flemish Red.md",
       "volume": "10",
