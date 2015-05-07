@@ -2,6 +2,11 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Ron Burgundy Mark II",
+      "path": "Ron Burgundy Mark II.md",
+      "volume": "5",
+      "date": "5/06/2015"
+    },{
       "name": "Freckled Redhead IRA II",
       "path": "Freckled Redhead IRA.md",
       "volume": "5",
