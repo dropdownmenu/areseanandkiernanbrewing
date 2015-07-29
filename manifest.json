@@ -2,6 +2,71 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Relapse IIPA",
+      "path": "Relapse IIPA.md",
+      "volume": "3",
+      "date": "7/22/2015"
+    },{
+      "name": "Uberon III",
+      "path": "Uberon II.md",
+      "volume": "5",
+      "date": "7/19/2015"
+    },{
+      "name": "Stupid Sexy Stout",
+      "path": "Stupid Sexy Stout.md",
+      "volume": "5",
+      "date": "7/19/2015"
+    },{
+      "name": "Ale to the Chief",
+      "path": "Ale to the Chief.md",
+      "volume": "5",
+      "date": "7/19/2015"
+    },{
+      "name": "Moment of Clarity IX",
+      "path": "Moment of Clarity IPA.md",
+      "volume": "5",
+      "date": "7/18/2015"
+    },{
+      "name": "Belgian IPA",
+      "path": "Belgian IPA.md",
+      "volume": "5",
+      "date": "7/18/2015"
+    },{
+      "name": "Tontine Trippel III",
+      "path": "Tontine Trippel.md",
+      "volume": "5",
+      "date": "7/18/2015"
+    },{
+      "name": "Spruce Moose
+      "path": "Spruce Moose.md",
+      "volume": "5",
+      "date": "7/1/2015"
+    },{
+      "name": "Welker-Kolsch II",
+      "path": "Welker-Kolsch.md",
+      "volume": "5",
+      "date": "7/1/2015"
+    },{
+      "name": "Moment of Clarity VIII",
+      "path": "Moment of Clarity IPA.md",
+      "volume": "5",
+      "date": "6/29/2015"
+    },{
+      "name": "Sploosh Pineapple Berliner Weiss I",
+      "path": "Sploosh Pineapple Berliner Weiss.md",
+      "volume": "5",
+      "date": "6/29/2015"
+    },{
+      "name": "Redemption Dubbel II",
+      "path": "Edwin Hubble Belgian Dubbel.md",
+      "volume": "5",
+      "date": "6/24/2015"
+    },{
+      "name": "Tontine Trippel II",
+      "path": "Tontine Trippel.md",
+      "volume": "5",
+      "date": "6/22/2015"
+    },{
       "name": "Moment of Clarity VII",
       "path": "Moment of Clarity IPA.md",
       "volume": "5",
