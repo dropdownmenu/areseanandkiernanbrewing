@@ -2,6 +2,11 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Barrel Aged Amber II",
+      "path": "Imperial Amber.md",
+      "volume": "10",
+      "date": "7/29/2015"
+    },{
       "name": "Relapse IIPA",
       "path": "Relapse IIPA.md",
       "volume": "3",
