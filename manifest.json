@@ -2,6 +2,31 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Belgian IPA",
+      "path": "Belgian IPA.md",
+      "volume": "5",
+      "date": "9/10/2015"
+    },{
+      "name": "Ron Burgundy",
+      "path": "Ron Burgundy Mark II.md",
+      "volume": "5",
+      "date": "9/10/2015"
+    },{
+      "name": "Vanilla Stout",
+      "path": "Vanilla Stout.md",
+      "volume": "5",
+      "date": "9/10/2015"
+    },{
+      "name": "Freckled Redhead",
+      "path": "Freckled Redhead IRA.md",
+      "volume": "5",
+      "date": "8/25/2015"
+    },{
+      "name": "Cream of Nick",
+      "path": "",
+      "volume": "5",
+      "date": "7/30/2015"
+    },{
       "name": "Barrel Aged Amber II",
       "path": "Imperial Amber.md",
       "volume": "10",
