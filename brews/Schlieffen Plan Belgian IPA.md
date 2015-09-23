@@ -1,4 +1,4 @@
-Schlieffen Plan Belgian IPA
+[Schlieffen Plan](https://en.wikipedia.org/wiki/Schlieffen_Plan) Belgian IPA
 ===
 
 > Original Recipe
