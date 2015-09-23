@@ -2,8 +2,8 @@
   "base_path": "brews/",
   "brews": [
     {
-      "name": "Belgian IPA",
-      "path": "Belgian IPA.md",
+      "name": "Schlieffen Plan Belgian IPA",
+      "path": "Schlieffen Plan Belgian IPA.md",
       "volume": "5",
       "date": "9/10/2015"
     },{
@@ -57,8 +57,8 @@
       "volume": "5",
       "date": "7/18/2015"
     },{
-      "name": "Belgian IPA",
-      "path": "Belgian IPA.md",
+      "name": "Schlieffen Plan Belgian IPA",
+      "path": "Schlieffen Plan Belgian IPA.md",
       "volume": "5",
       "date": "7/18/2015"
     },{
