@@ -23,3 +23,7 @@ Hops:
 Yeast:
 
 * Belgian Strong
+
+Other: 
+
+*1 Vanilla Bean
