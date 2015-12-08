@@ -46,7 +46,7 @@
 	      	$.get("http://apod.nasa.gov/apod.rss", function (data) {
 		    $(data).find("item").each(function () {
 		        var el = $(this);
-		        console.log(el.find("title").text());
+		        console.log(el.find("link").text());
 		    });
 		});
 	</script>
