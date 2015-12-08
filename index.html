@@ -42,6 +42,14 @@
         </div>
       </div>
       <div class="thumbnail shadow-z-2">
+      	<script>
+	      	$.get("http://apod.nasa.gov/apod.rss", function (data) {
+		    $(data).find("item").each(function () {
+		        var el = $(this);
+		        console.log(el.find("title").text());
+		    });
+		});
+	</script>
         <img src="http://apod.nasa.gov/apod/astropix.html" class="img-img-responsive"></img>
         <div class="caption">
           <h1 id="stillBrewing-status"></h1>
