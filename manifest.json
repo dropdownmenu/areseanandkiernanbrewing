@@ -2,6 +2,26 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Heat Death Stout",
+      "path": "Heat Death Stout.md",
+      "volume": "5",
+      "date": "11/7/2015"
+    },{
+      "name": "Schlieffen Plan Belgian IPA",
+      "path": "Schlieffen Plan Belgian IPA.md",
+      "volume": "5",
+      "date": "11/7/2015"
+    },{
+      "name": "Moment of Clarity X",
+      "path": "Moment of Clarity IPA.md",
+      "volume": "5",
+      "date": "11/7/2015"
+    },{
+      "name": "Cream of Nick",
+      "path": "",
+      "volume": "5",
+      "date": "10/7/2015"
+    },{
       "name": "Spontaneous Combustion Capsaicin Ale",
       "path": "Spontaneous Combustion Capsaicin Ale.md",
       "volume": "5",
