@@ -42,20 +42,7 @@
         </div>
       </div>
       <div class="thumbnail shadow-z-2">
-      	<script>
-	      	$.ajax({
-		  url      : 'http://apod.nasa.gov/apod.rss',
-			  dataType : 'xml',
-			  success  : function (data) {
-			    if (data.responseData.feed && data.responseData.feed.entries) {
-			      $.each(data.responseData.feed.entries, function (i, e) {
-			        console.log("link      : " + e.link);
-			      });
-			    }
-			  }
-			});
-	</script>
-        <img src="http://apod.nasa.gov/apod/astropix.html" class="img-img-responsive"></img>
+        <img src="http://imgur.com/gallery/083ps12" class="img-img-responsive"></img>
         <div class="caption">
           <h1 id="stillBrewing-status"></h1>
           <h4 id="stillBrewing-elapsed"></h4>
