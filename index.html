@@ -43,12 +43,17 @@
       </div>
       <div class="thumbnail shadow-z-2">
       	<script>
-	      	$.get("http://apod.nasa.gov/apod.rss", function (data) {
-		    $(data).find("item").each(function () {
-		        var el = $(this);
-		        console.log(el.find("link").text());
-		    });
-		});
+	      	$.ajax({
+		  url      : document.location.protocol + 'http://apod.nasa.gov/apod.rss' + encodeURIComponent(FEED_URL),
+			  dataType : 'json',
+			  success  : function (data) {
+			    if (data.responseData.feed && data.responseData.feed.entries) {
+			      $.each(data.responseData.feed.entries, function (i, e) {
+			        console.log("link      : " + e.link);
+			      });
+			    }
+			  }
+			});
 	</script>
         <img src="http://apod.nasa.gov/apod/astropix.html" class="img-img-responsive"></img>
         <div class="caption">
