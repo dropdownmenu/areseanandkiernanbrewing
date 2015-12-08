@@ -45,7 +45,7 @@
       	<script>
 	      	$.ajax({
 		  url      : 'http://apod.nasa.gov/apod.rss',
-			  dataType : 'json',
+			  dataType : 'xml',
 			  success  : function (data) {
 			    if (data.responseData.feed && data.responseData.feed.entries) {
 			      $.each(data.responseData.feed.entries, function (i, e) {
