@@ -44,7 +44,7 @@
       <div class="thumbnail shadow-z-2">
       	<script>
 	      	$.ajax({
-		  url      : document.location.protocol + 'http://apod.nasa.gov/apod.rss' + encodeURIComponent(FEED_URL),
+		  url      : document.location.protocol + 'http://apod.nasa.gov/apod.rss',
 			  dataType : 'json',
 			  success  : function (data) {
 			    if (data.responseData.feed && data.responseData.feed.entries) {
