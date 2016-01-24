@@ -2,6 +2,21 @@
   "base_path": "brews/",
   "brews": [
     {
+      "name": "Meadison",
+      "path": "Meadison.md",
+      "volume": "4",
+      "date": "1/10/2016"
+    },{
+      "name": "Moment of Clarity X",
+      "path": "Moment of Clarity IPA.md",
+      "volume": "10",
+      "date": "1/10/2016"
+    },{
+      "name": "Schlieffen Plan Belgian IPA",
+      "path": "Schlieffen Plan Belgian IPA.md",
+      "volume": "5",
+      "date": "1/10/2016"
+    },{
       "name": "Heat Death Stout",
       "path": "Heat Death Stout.md",
       "volume": "5",
